@@ -15,6 +15,7 @@ Dimensionality reduction is a crucial step in preprocessing high-dimensional dat
 - Apply bio-inspired algorithms for **feature selection** and dimensionality reduction.
 - Evaluate and compare the performance of these methods on benchmark datasets.
 - Visualize the results and analyze performance metrics like accuracy, computational cost, and cluster preservation.
+- Provide an **interactive GUI using Streamlit** to explore and visualize results dynamically.
 
 ---
 
@@ -79,6 +80,19 @@ The **Wine dataset** consists of 13 chemical features describing different culti
 - **Trustworthiness Score** – Measures how well local neighborhoods are preserved after dimensionality reduction.  
 - **Visualization** for 2D/3D representation and structure preservation
 
+---
+
+## 🎛️ Streamlit Interface
+
+We use **[Streamlit](https://streamlit.io/)** to build a user-friendly **interactive GUI** that allows users to:
+
+- Select dimensionality reduction methods from a dropdown.
+- Use the built-in Wine dataset.
+- Visualize 2D projections or 3D projections of the reduced data.
+- View metrics like trustworthiness, and silhouette score.
+- Compare different nature-inspired algorithms in real-time.
+
+  
 ---
 
 ## 💡 Expected Outcomes
